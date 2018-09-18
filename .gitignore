@@ -1,0 +1,12 @@
+.idea
+.DS_STORE
+.cache
+
+**/node_modules
+**/coverage
+**/dist
+**/*.tgz
+/test/**/coverage
+
+npm-debug.log
+lerna-debug.log

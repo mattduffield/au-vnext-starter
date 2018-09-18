@@ -1,0 +1,23 @@
+{
+  "name": "aurelia-vnext-starter",
+  "version": "0.1.1",
+  "description": "Simple starter app for Aurelia vNext",
+  "scripts": {
+    "dev": "parcel index.html",
+    "prod": "rimraf dist && parcel build index.html",
+    "serve": "http-server -c-1 -p 1234 dist"
+  },
+  "author": "fkleuver",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.10.22",
+    "http-server": "latest",
+    "parcel-bundler": "git+https://github.com/parcel-bundler/parcel.git#6dccfaa",
+    "parcel-plugin-typescript": "latest",
+    "rimraf": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@aurelia/jit": "dev"
+  }
+}
